@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-1 space-y-4">
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-                Hi, I&apos;m <span className="text-primary">Abdul Ghufran</span>
+                Hi, I am <span className="text-primary">Abdul Ghufran</span>
               </h1>
               <p className="text-xl text-muted-foreground">Web & App Developer</p>
               <p className="text-muted-foreground max-w-md">
@@ -67,10 +67,10 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-40">
               <div>
                 <p className="text-muted-foreground mb-4">
-                I&apos;m a dedicated web and mobile app developer with about one year of hands-on experience creating responsive and user-friendly digital solutions. As a Computer Science student, I&apos;ve built a strong foundation in software development and enjoy working with technologies like React, Next.js, Node.js, and Flutter. I&apos;m passionate about both front-end and back-end development and love turning ideas into functional, real-world applications.
+                I am a dedicated web and mobile app developer with about one year of hands-on experience creating responsive and user-friendly digital solutions. As a Computer Science student, I have built a strong foundation in software development and enjoy working with technologies like React, Next.js, Node.js, and Flutter. I am passionate about both front-end and back-end development and love turning ideas into functional, real-world applications.
                 </p>
                 <p className="text-muted-foreground">
-                I&apos;m always eager to learn and take on new challenges that push my skills further. Whether collaborating in a team or working independently, I focus on writing clean, maintainable code and delivering meaningful digital experiences. With a blend of academic knowledge and practical experience, I&apos;m committed to growing as a developer and making a positive impact through technology.
+                I am always eager to learn and take on new challenges that push my skills further. Whether collaborating in a team or working independently, I focus on writing clean, maintainable code and delivering meaningful digital experiences. With a blend of academic knowledge and practical experience, I am committed to growing as a developer and making a positive impact through technology.
                 </p>
               </div>
               <div className="space-y-14">
@@ -182,7 +182,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-10">
               <p className="text-muted-foreground">
-                I&apos;m currently available for freelance work. If you have a project that needs some creative touch, don't
+                I am currently available for freelance work. If you have a project that needs some creative touch, don't
                 hesitate to reach out.
               </p>
               <div className="space-y-10">
