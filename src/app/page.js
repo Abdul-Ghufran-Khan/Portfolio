@@ -182,7 +182,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-10">
               <p className="text-muted-foreground">
-                I am currently available for freelance work. If you have a project that needs some creative touch don't
+                I am currently available for freelance work. If you have a project that needs some creative touch do not
                 hesitate to reach out.
               </p>
               <div className="space-y-10">
