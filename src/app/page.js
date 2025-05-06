@@ -148,9 +148,9 @@ export default function Home() {
                 { title: "Real-Estate", type: "Web Development", image: "/img/Real-estate.JPG?height=200&width=300", link: "https://real-estate-hazel.vercel.app" },
                 { title: "SMIT Microfinance", type: "Web Development", image: "/img/SMIT.JPG?height=200&width=300", link: "https://smit-microfinance.netlify.app/" },
                 { title: "Doctor Appointment system", type: "Web Development", image: "/img/Doctor-appointment.JPG?height=200&width=300", link: "https://doctor-appointment-system-teal.vercel.app/" },
-                { title: "Task Manager", type: "Web & Mobile", image: "/placeholder.svg?height=200&width=300", link: "https://real-estate-hazel.vercel.app" },
-                { title: "Restaurant Booking", type: "Web Development", image: "/placeholder.svg?height=200&width=300", link: "https://real-estate-hazel.vercel.app" },
-                { title: "Travel Guide App", type: "Mobile App", image: "/placeholder.svg?height=200&width=300", link: "https://real-estate-hazel.vercel.app" },
+                { title: "Solar-Saver", type: "Web Development", image: "/img/Solar-saver.JPG?height=200&width=300", link: "https://solar-saver-react.netlify.app/" },
+                { title: "E-store", type: "Web Development", image: "/img/E-store.JPG?height=200&width=300", link: "https://e-store-reactjs.netlify.app/" },
+                { title: "Project", type: "Web Development", image: "/img/project.JPG?height=200&width=300", link: "https://al-misbahweb.netlify.app/" },
               ].map((project, index) => (
                 <Card key={index} className="overflow-hidden">
                   <div className="relative h-48">
