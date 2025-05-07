@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="flex-1 flex justify-center">
               <div className="relative w-60 h-60 sm:w-72 sm:h-72 rounded-full overflow-hidden border-4 border-primary/20">
-                <Image src="/placeholder.svg?height=300&width=300" alt="Profile" fill className="object-cover" />
+                <Image src="https://plus.unsplash.com/premium_photo-1720287601300-cf423c3d6760?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29kZXIlMjBhbmltYXRlZHxlbnwwfHwwfHx8MA%3D%3D?height=300&width=300" alt="Profile" fill className="object-cover" />
               </div>
             </div>
           </div>
