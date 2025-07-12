@@ -19,7 +19,7 @@ export default function Contact() {
           </h2>
           <div className="h-1 w-24 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Ready to bring your ideas to life? Let's create something extraordinary together
+            Ready to bring your ideas to life? Lets create something extraordinary together
           </p>
         </div>
 
@@ -28,11 +28,11 @@ export default function Contact() {
           <div className="space-y-8">
             <div className="mb-12">
               <h3 className="text-4xl font-bold text-white mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                Let's start a conversation
+                Lets start a conversation
               </h3>
               <p className="text-lg text-gray-400 leading-relaxed mb-8">
-                I'm always excited to work on new projects and collaborate with amazing people. Whether you have a
-                question, want to discuss a project, or just want to say hello, I'd love to hear from you.
+                I am always excited to work on new projects and collaborate with amazing people. Whether you have a
+                question, want to discuss a project, or just want to say hello, I love to hear from you.
               </p>
 
               {/* Quick Stats */}
@@ -106,7 +106,7 @@ export default function Contact() {
                   </div>
                   <h3 className="text-2xl font-bold text-white">Send me a message</h3>
                 </div>
-                <p className="text-gray-400">Fill out the form below and I'll get back to you as soon as possible.</p>
+                <p className="text-gray-400">Fill out the form below and I will get back to you as soon as possible.</p>
               </div>
 
               {/* Form */}

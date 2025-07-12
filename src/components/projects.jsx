@@ -254,7 +254,7 @@ export default function Projects() {
           <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm p-8 rounded-3xl border border-gray-700/50">
             <h3 className="text-2xl font-bold text-white mb-4">Ready to Start Your Project?</h3>
             <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-              Let's collaborate and bring your ideas to life with cutting-edge technology and innovative solutions.
+              Lets collaborate and bring your ideas to life with cutting-edge technology and innovative solutions.
             </p>
             <Button
               className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-8 py-3 text-lg"
