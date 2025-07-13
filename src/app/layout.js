@@ -7,12 +7,10 @@ export const metadata = {
   description: "Web & App Developer Portfolio",
 }
 
-export default function RootLayout({
-  children,
-}) {
+export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body>
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+      <body className="bg-black text-white overflow-x-hidden">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
