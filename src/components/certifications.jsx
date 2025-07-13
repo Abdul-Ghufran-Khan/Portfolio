@@ -434,7 +434,7 @@ export default function Certifications() {
             onClick={closeCertificateModal}
           >
             <div
-              className="relative bg-gray-900/90 backdrop-blur-sm rounded-2xl border border-gray-700/50 max-w-lg w-full"
+              className="relative bg-gray-900/90 backdrop-blur-sm rounded-2xl border border-gray-700/50 max-w-md w-full"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Close Button */}
