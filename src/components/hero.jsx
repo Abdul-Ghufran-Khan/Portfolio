@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowDown, Download } from "lucide-react"
 
 export default function Hero() {
   const scrollToSection = (sectionId) => {
@@ -12,6 +12,16 @@ export default function Hero() {
         block: "start",
       })
     }
+  }
+
+  const downloadCV = () => {
+    // Create a temporary link element
+    const link = document.createElement("a")
+    link.href = "/cv/A.Ghufran-resume.pdf" // Path to your CV file in public folder
+    link.download = "Abdul-Ghufran-Resume.pdf" // Name for the downloaded file
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   return (
@@ -42,18 +52,30 @@ export default function Hero() {
           <Button
             variant="outline"
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-black bg-transparent px-8 py-3 text-lg"
+            className="border-white text-white hover:bg-white hover:text-black bg-transparent px-8 py-3 text-lg flex items-center gap-2"
+            onClick={downloadCV}
           >
+            <Download size={20} />
             Download CV
           </Button>
         </div>
 
         <div className="flex justify-center space-x-8 mb-16">
-          <a href="#" className="text-white hover:text-gray-300 transition-colors p-2">
-            <Github onClick={() => window.open("https://github.com/Abdul-Ghufran-Khan", "_blank")} size={28} />
+          <a
+            href="https://github.com/Abdul-Ghufran-Khan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors p-2"
+          >
+            <Github size={28} />
           </a>
-          <a href="#" className="text-white hover:text-gray-300 transition-colors p-2">
-            <Linkedin onClick={() => window.open("https://www.linkedin.com/in/abdul-ghufran-87bbb62b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "_blank")} size={28} />
+          <a
+            href="https://www.linkedin.com/in/abdul-ghufran-87bbb62b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors p-2"
+          >
+            <Linkedin size={28} />
           </a>
           <a href="mailto:abdulghufran267@gmail.com" className="text-white hover:text-gray-300 transition-colors p-2">
             <Mail size={28} />
