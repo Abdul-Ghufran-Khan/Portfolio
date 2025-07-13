@@ -428,13 +428,13 @@ export default function Certifications() {
         )}
 
         {/* Certificate Modal */}
-        {selectedCertificate && (
+       {selectedCertificate && (
           <div
-            className="fixed inset-0 bg-black/80 backdrop-blur-lg z-50 flex items-center justify-center p-4 pt-24"
+            className="fixed inset-0 bg-black/80 backdrop-blur-lg z-50 flex items-center justify-center p-4 pt-32"
             onClick={closeCertificateModal}
           >
             <div
-              className="relative bg-gray-900/90 backdrop-blur-sm rounded-2xl border border-gray-700/50 max-w-md w-full"
+              className="relative bg-gray-900/90 backdrop-blur-sm rounded-2xl border border-gray-700/50 max-w-sm w-full"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Close Button */}
@@ -446,15 +446,15 @@ export default function Certifications() {
               </button>
 
               {/* Modal Content */}
-              <div className="p-6">
-                <div className="text-center mb-6">
+              <div className="p-4">
+                <div className="text-center mb-4">
                   <h3 className="text-2xl font-bold text-white mb-2">{selectedCertificate.title}</h3>
                   <p className="text-lg text-gray-400">{selectedCertificate.issuer}</p>
                 </div>
 
                 {/* Certificate Image Display */}
-                <div className="flex justify-center mb-6">
-                  <div className="relative w-full max-w-sm">
+                <div className="flex justify-center mb-4">
+                  <div className="relative w-full max-w-[280px]">
                     <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-600/50 overflow-hidden">
                       <img
                         src={selectedCertificate.image || "/placeholder.svg"}
@@ -467,7 +467,7 @@ export default function Certifications() {
                 </div>
 
                 {/* Certificate Details */}
-                <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="grid grid-cols-2 gap-3 mb-4">
                   <div className="bg-gray-800/30 p-3 rounded-xl">
                     <div className="text-xs text-gray-400 mb-1">Issued Date</div>
                     <div className="text-white font-semibold text-sm">{selectedCertificate.date}</div>
@@ -479,13 +479,13 @@ export default function Certifications() {
                 </div>
 
                 {/* Credential ID */}
-                <div className="bg-gray-800/30 p-3 rounded-xl mb-6">
+                <div className="bg-gray-800/30 p-2 rounded-xl mb-4">
                   <div className="text-xs text-gray-400 mb-1">Credential ID</div>
                   <div className="text-white font-mono text-xs">{selectedCertificate.credentialId}</div>
                 </div>
 
                 {/* Action Buttons */}
-                <div className="flex gap-3">
+                <div className="flex gap-2">
                   <Button
                     variant="outline"
                     size="sm"
